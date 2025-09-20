@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Support Our Cause</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header-nav">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="My NGO Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html" class="active donate-btn">Donate</a>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <div class="page-header">
+            <h1>Make a Difference Today</h1>
+            <p>Your contribution directly supports our life-changing projects. Thank you for your generosity!</p>
+        </div>
+        <div class="donate-options">
+            <div class="donation-card">
+                <h3>One-Time Donation</h3>
+                <form id="one-time-donation">
+                    <div class="amount-buttons">
+                        <button type="button" data-amount="25">$25</button>
+                        <button type="button" data-amount="50">$50</button>
+                        <button type="button" data-amount="100">$100</button>
+                    </div>
+                    <input type="number" id="other-amount" placeholder="Other amount" min="5">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="cta-button">Donate Now</button>
+                </form>
+            </div>
+            <div class="donation-card">
+                <h3>Monthly Giving</h3>
+                <p>Become a monthly supporter and help us sustain our long-term initiatives.</p>
+                <form id="monthly-donation">
+                    <input type="number" placeholder="Monthly amount" min="5" required>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="cta-button">Become a Monthly Donor</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 My NGO | All Rights Reserved</p>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
